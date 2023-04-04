@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px 0 12px;
+    
+}
+.logo-header{
+    width: 70px;
+    height: 66px
+}
+@media(min-width:1583px){
+    .logo-header{
+        width: 138px;
+        height: 144px;
+        
+    }
+}
+
+.desktop-menu{
+    display: none;
+}
+@media(min-width:1583px){
+    .desktop-menu{
+        margin-top: 30px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 45px;
+        width: 428px;
+        height: 28px;
+        
+    }
+    .botones{
+        border: none;
+        color: black;
+        font-size: 28px;
+        font-family: "koulen";
+        text-decoration: none;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+}
+
+.barras{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin: 6px 0;
+    
+}
+@media(min-width:1583px){
+    .barras{
+        display: none;
+        
+    }
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    
+}
+@media(min-width:1583px){
+    
+}
+
+.seccion-uno{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:1583px){
+    .seccion-uno{
+        
+        justify-content: center;
+    }
+}
+
+
+
+.titulo{
+    font-size: 48px;
+    text-align: center;
+    font-family: "koulen";
+}
+@media(min-width:1583px){
+    .titulo{
+        margin-left: 1063px;
+        text-align: start;
+        width: 313px;
+        font-size: 58px;
+    
+    }
+}
+
+.foto-perfil{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+}
+@media(min-width:1583px){
+    .foto-perfil{
+    width:300px;
+    height:300px;
+        
+
+    }
+}
+
+.seccion-dos{
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;
+    padding: 55px 32px   
+}
+
+.subtitulo{
+    font-size: 32px;
+    color:  #FAFAFA;     
+}
+@media(min-width:1583px){
+    .subtitulo{
+        font-size: 42px;
+    }
+}
+
+.contenedor-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto{
+    color:  #FAFAFA;  
+    max-width: 312px;
+    height: 193px;
+    font-size: 16px;
+    text-align: center;
+}
+@media(min-width:1583px){
+    .texto{
+        width: 532px;
+        height: 165px;
+        max-width: 532px;
+        font-size:24px;
+        text-align: start;
+    }
+}
+
+.seccion-cuatro{
+    background: #141414;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.escribime{
+   color: #FAFAFA;
+   font-size: 32px;
+}
+@media(min-width:1538px){
+    .escribime{
+        font-size: 48px;
+    }
+}
+.label{
+    display: block;
+    color: #FAFAFA;
+    margin-bottom: 9px;
+    
+}
+
+.nombre{
+    width: 335px;
+    height: 45px;
+    border: 3px solid #2C2C2C;
+    border-radius: 4px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    
+}
+@media(min-width:1538px){
+    .nombre{
+        width: 376px;
+        
+    }
+}
+
+
+.email{
+    width: 335px;
+    height: 45px;
+    border: 3px solid #2C2C2C;
+    border-radius: 4px;
+    margin-bottom: 21px;
+    font-size: 20px;
+}
+@media(min-width:1538px){
+    .email{
+        width: 376px;
+    }
+}
+
+.mensaje{
+    width: 335px;
+    height: 113px;
+    border: 3px solid #2C2C2C;
+    border-radius: 4px;
+    margin-bottom: 21px;
+    font-size: 20px;
+}
+@media(min-width:1538px){
+    .mensaje{
+        width: 376px;
+    }
+}
+
+.boton{
+    color: #141414;
+    background: #FFD953;
+    Width:335px;
+    Height:45px;
+    font-size: 16px;
+    border: 3px solid #2C2C2C;
+    border-radius: 4px;
+    font-family: Impact
+}
+.boton:active {
+    background-color: #daab00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+@media(min-width:1538px){
+    .boton{
+        width: 376px;
+    }
+}
+
+.seccion-cinco{
+    background: #DBDBDB;
+    height: 356px;
+    
+}
+@media(min-width:1538px){
+    .seccion-cinco{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.logo-gris{
+    width: 95px;
+    height: 95px;
+    margin-top: 45px;
+    margin-left: 16px;
+}
+
+.derechos{
+    margin: 0;
+    margin-left: 16px;
+}
+
+
+@media(min-width:1538px){
+    .logo-derechos{
+        margin-left: 100px;
+    }
+}
+
+.git{
+    height: 193px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+@media(min-width:1538px){
+    .git{
+        margin-right: 100px;
+    }
+}
